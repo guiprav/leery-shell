@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "author": "Guilherme Prá",
   "license": "AGPL-3.0+",
+  "scripts": {
+    "start": "./start.sh"
+  },
   "dependencies": {
     "browserify": "^16.2.2",
     "bulma": "^0.7.1",

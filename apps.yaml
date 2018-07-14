@@ -1,0 +1,8 @@
+- name: DuckDuckGo
+  entrypoint: https://duckduckgo.com
+
+- name: GitHub
+  entrypoint: https://github.com
+
+- name: Suckless.org
+  entrypoint: https://suckless.org
