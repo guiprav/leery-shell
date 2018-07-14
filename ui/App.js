@@ -10,7 +10,13 @@ module.exports = window.App = {
 
   view: function() {
     return m('.App', [
-      m('h1.title', `Hello, world!`),
+      m('.panel', [
+        apps.map(app => [
+          m('a.panel-block', { href: app.entrypoint }, [
+            app.name,
+          ]),
+        ]),
+      ]),
     ]);
   },
 };

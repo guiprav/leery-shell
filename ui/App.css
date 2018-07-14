@@ -4,6 +4,29 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-height: 100vh;
+  margin: 0;
+}
+
+html {
+  --white: #f7f5e0;
+  --darkBlue: #104249;
+
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--darkBlue);
+}
+
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 100px);
   font-family: Cantarell, sans-serif;
+}
+
+.App {
+  width: 500px;
+  background-color: var(--white);
 }
