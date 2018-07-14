@@ -2,5 +2,16 @@
   "name": "leery-shell",
   "version": "1.0.0",
   "author": "Guilherme Prá",
-  "license": "AGPL-3.0+"
+  "license": "AGPL-3.0+",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "bulma": "^0.7.1",
+    "cssify": "^1.0.3",
+    "electron": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "mithril": "^1.1.6",
+    "npx": "^10.2.0",
+    "watchify": "^3.11.0",
+    "yaml-js": "^0.2.3"
+  }
 }
